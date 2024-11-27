@@ -13,6 +13,6 @@ public class Translator {
     }
 
     public String translate(Integer number) {
-        return numericAlpha.getOrDefault(number, "Ongeldige invoer");
+        return numericAlpha.get(number);
     }
 }

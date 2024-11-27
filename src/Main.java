@@ -14,7 +14,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         // while loop
         while (play) {
-            System.out.println("Type 'x' om te stoppen en \nType 'v' om te vertalen");
+            System.out.println("Type 'x' om te stoppen \nType 'v' om te vertalen");
             String input = scanner.nextLine();
         if (input.equals("x")) {
             play = false;}
@@ -30,9 +30,7 @@ public class Main {
                 System.out.println(ongeldig);
             }
         }
-        else {
-            System.out.println(defaultValue);
-            }
+        else System.out.println(ongeldig);
             }
         }
         }
